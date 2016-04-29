@@ -359,12 +359,12 @@
 	<script src="js/mainscript.js"></script>
 	<script src="js/datatables.min.js"></script>
 
-	<script src="highmaps/js/highcharts.js"></script>
-	<script src="highmaps/js/modules/highcharts-more.js"></script>
-	<script src="highmaps/js/map.js"></script>
-	<script src="highmaps/js/modules/data.js"></script>
+	<script src="js/highmaps/js/highcharts.js"></script>
+	<script src="js/highmaps/js/modules/highcharts-more.js"></script>
+	<script src="js/highmaps/js/map.js"></script>
+	<script src="js/highmaps/js/modules/data.js"></script>
 	<!-- Export modules -->
-	<script src="highmaps/js/modules/exporting.src.js"></script>
+	<script src="js/highmaps/js/modules/exporting.src.js"></script>
 	<script src="js/offline-exporting.js"></script>
 	<script src="js/canvas-tools.js"></script>
 	<script src="js/export-csv.js"></script>
