@@ -1,0 +1,223 @@
+*{margin:0; padding:0;}
+
+.grad {
+  margin-top: 0;
+  padding-top: 0;
+  
+  background: -webkit-linear-gradient(180deg, #375E7A, #AFB9C0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(180deg, #375E7A, #AFB9C0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(180deg, #375E7A, #AFB9C0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(180deg, #375E7A, #AFB9C0); /* Standard syntax */
+  
+}
+.bg-default {
+	 background: #cccccc url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+}
+.hbg-brown{
+	background-image: url(images/bgheader.jpg);
+	background-repeat: no-repeat;
+}
+
+body{
+	font: 72.5% "Trebuchet MS", sans-serif;
+}
+
+header {
+	min-height: 100px;
+	//background: white url("images/features-header.png") 50% 50% repeat;
+	//border-radius: 4px;
+}
+
+#container {
+	display:none;
+	min-height:300px;
+	margin:0 auto;
+	width:1010px;
+
+}
+
+aside {
+	color: #285B81;
+	float:left;
+	width:280px;
+	min-height:580px;
+	margin-top:-3px;
+}
+
+
+section {
+	margin-left:285px;
+	min-height:580px;
+	padding:0;
+}
+
+.boxes {
+	display: block;
+	min-height: 380px;
+
+	border-radius: 3px;
+	
+	margin-top: 5px;
+	padding: 10px;
+}
+
+label {
+	display: inline-block;
+	margin: 0;
+	padding-left: 0px;
+    width:60px;
+    font-size: 1.1em;
+    position: relative;
+    left: -8px;
+}
+.dates {
+	position: relative;
+	left: 20px;
+	top: 50px;
+	z-index: 10;
+}
+.dates label {
+	width:130px;
+	display: inline-block;
+	position: relative;
+	left: -10px;
+
+}
+.dropdown{
+	position: relative;
+	left: -3px;
+	display: inline-block;
+	
+}
+
+.hidden {
+	display: none;
+}
+
+div.clear {
+	border:none;
+    clear:both;
+}
+div.space {
+	height: 10px;
+	width: 100%;
+	display:block;
+
+}
+div.bigspace {
+	height: 30px;
+	width: 100%;
+	display:block;
+
+}
+div.biggestspace {
+	height: 70px;
+	width: 100%;
+	display:block;
+
+}
+
+.overflow {
+    max-height: 280px;
+    width: 200px;
+}
+
+
+
+#accordion{
+	width: 95%;
+	position: relative;
+	left:7px;
+	top: 10px;
+}
+
+#selectedStats .ui-button {
+	margin: 0.5em 0;
+	font-size: 0.9em;
+	display: inline-block;
+	width: 47%;
+	height: 2em;
+	position: relative;
+	left: 4px;
+
+}
+
+#selectedDates .ui-button {
+	margin: 0.5em 0;
+	font-size: 0.9em;
+	width: 47%;
+	height: 2em;
+	position: relative;
+	left: 4px;
+
+}
+#criteria{
+	position: relative;
+	top: -78px;
+}
+#criteria div .ui-button {
+	margin: 0.5em 0;
+	font-size: 0.9em;
+	width: 47%;
+	height: 2em;
+	position: relative;
+	left: 4px;
+
+}
+
+#tabs{
+	position: relative;
+	top: -78px;
+}
+#tabs > .ui-button {
+	margin: 0.5em 0;
+	font-size: 1em;
+	width: 50%;
+	height: 2em;
+	position: relative;
+	left: 126px;
+	top:15px;
+
+}
+
+
+#datesBtnSet .ui-button{
+	margin-bottom: 1em;
+	font-size: 0.9em;
+	width: 40%;
+	height: 2em;
+	position: relative;
+	left: 12px;
+}
+
+#add_sx .ui-buttonset {
+	width:80%;
+	padding-left: 30px;
+	
+}
+
+#loadprogress {
+	background: green;
+	position: relative;
+	display: none;
+	width: 99%;
+	height: 20px;
+	top: 20px;
+}
+
+#requestBtn {
+	width: 140px;
+	position: relative;
+	margin: 30px 10px 10px 118px;
+}
+#criteria {
+	display: none;
+}
+
+#table button {
+	display: none;
+}
+
+
+
+
