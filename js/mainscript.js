@@ -852,11 +852,11 @@
 				$('#total_rows').show();
 				$('#total_rows strong').html('Найдено записей: ' + recordNum);
 			}
-			// $('#tableData')
+			// '<td>'+"<a target=_blank href='data/selectPerson.php?pid="+elem.id+"'>"+elem.sname+"</a>"+'</td>'+
 			tbData.forEach(function(elem, index){
 				$newRow = '<tr>'+
 					'<td>'+elem.id+'</td>'+
-					'<td>'+"<a target=_blank href='data/selectPerson.php?pid="+elem.id+"'>"+elem.sname+"</a>"+'</td>'+
+					'<td>'+"<a target=_blank href='#'>"+elem.sname+"</a>"+'</td>'+
 					'<td>'+elem.name+'</td>'+
 					'<td>'+elem.mid+'</td>'+
 					'<td>'+elem.pass+'</td>'+

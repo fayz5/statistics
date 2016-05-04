@@ -9,20 +9,14 @@
 	<link href="styles/jquery-ui.custom.css" rel="stylesheet">
 	<link href="styles/datatables.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/mainStyle.css">
-	
-	<!--NEWLY ADDED-->
 	<link rel="stylesheet" type="text/css" media="all" href="styles/bootstrap.custom.css" />
 
 </head>
 <body class="">
-	<!-- 	<header class="bg-default">
-			
-		</header> -->
 	<?php require('data/includes/navigation_b3.php');?>
 	<div id="container">
 
 		
-		<!-- <button id="clear_btn" class="btn btn-danger" name = "clear_btn" style="position:fixed; right:10px; bottom:10px;"><img src="./styles/images/clean.ico" style="height:25px"></button> -->
 		<button id="clear_btn" class="btn btn-warning" name = "clear_btn" style="position:fixed; right:10px; bottom:10px;"><span class="glyphicon glyphicon-refresh"></span></button>
 		
 		<div class="main">
@@ -155,7 +149,6 @@
 			    </div>
 
 			    <div class="clear"></div>
-			    <!-- <div id="loadprogress" ></div> -->
 				<div class="row requestDiv">
 						<button id="requestBtn" class="btn btn-sm btn-success pull-right" style="width:140px">Отправить запрос</button>
 						<img id="loadprogress" src="./styles/images/loading.gif" class="pull-right">
@@ -321,13 +314,11 @@
 				<div id="table" class="ui-widget-content table-responsive boxes" style="padding:15px; white-space: nowrap; position: relative;">
 					<button id="prev100" name = "table_btn" class="btn btn-default" style="display:none">Предыдущие</button>
 					<button id="next100" name = "table_btn" class="btn btn-default" style="display:none">Следующие</button>
-					<!-- <div id="total_rows" class="alert alert-info" style="position:absolute; display:none">
-						<strong></strong>
-					</div>	 -->
+	
 					<table id="tableData" class="display table table-condensed table-striped table-hover" cellspacing="0" width="100%">
 						<thead>
 						  <tr>
-						  	 <th>Id</th>
+						  	 <th>Номер</th>
 							 <th>Фамилия</th>
 							 <th>Имя</th>
 							 <th>Отчество</th>
@@ -346,10 +337,10 @@
 			
 		</div>
 		
-		<!-- <footer>Copyright &copy</footer> -->
+		
 
 	</div>
-
+	<!-- <footer>Copyright &copy</footer> -->
 	<?php require('data/includes/footer_b3.php');?>
 
 
@@ -368,9 +359,8 @@
 	<script src="js/offline-exporting.js"></script>
 	<script src="js/canvas-tools.js"></script>
 	<script src="js/export-csv.js"></script>
-	<!-- Export Client-Side module -->
 	<script src="js/highcharts-export-clientside.js"></script>
-	
+
 	<script src="js/datepicker-ru.js"></script>
 	<script src="data/maps/uzb.js"></script>
 	<script src="data/maps/world.js"></script>

@@ -1,5 +1,4 @@
 <?php
-    error_reporting(E_ALL ^ E_NOTICE);
     if (isset($_POST)){
 
         include 'vars.php';
@@ -27,7 +26,6 @@
         if ($query){
             $pgconn = pg_connect("host=$dbhost port=$port dbname=$dbname user=$dbuser password=$pass");
 
-
             if (!$pgconn) {
                 exit;
 
@@ -39,7 +37,6 @@
                 while ($row = pg_fetch_assoc($query_res)) {
                     $customer[] = $row;
                 }
-
 
                 $json_query = json_encode($customer);
 

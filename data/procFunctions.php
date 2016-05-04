@@ -1,8 +1,8 @@
 <?php
-	error_reporting(E_ALL ^ E_NOTICE);
-	/*This fila contains functions used to form WHERE part
+	/*******************************************************
+	This file contains functions used to form 'WHERE' part
 	of the SQL query performed at the server side
-	*/
+	********************************************************/
 
 	function processAgeRange($min_age, $max_age){
 
